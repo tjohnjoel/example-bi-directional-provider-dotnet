@@ -10,6 +10,7 @@ namespace Provider.Controllers
     [Route("[controller]")]
     public class ProductsController : Controller
     {
+    //test
         private static List<Product> products = new List<Product>
             {
                 new Product { id = 2, type = "SNACK", name = "muesli bar"},
